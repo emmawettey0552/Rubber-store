@@ -136,7 +136,7 @@ footer {
 
 <div class="card">
 <h3>Small Bags</h3>
-<p class="price">₵1</p>
+<p class="price">₵50</p>
 <a class="order-btn" href="https://wa.me/233592110746?text=I%20want%20small%20bags">Order</a>
 <button class="pay-btn" onclick="payWithPaystack(50,'Small Bags')">Pay Now</button>
 </div>
@@ -179,7 +179,7 @@ footer {
 function payWithPaystack(amount, product) {
     let handler = PaystackPop.setup({
         key: 'pk_live_c201fa7217dbce0813c6358ab00fccdd3f8256e7',
-        email: 'customer@email.com',
+        email: 'emmawettey0552@gmail.com',
         amount: amount * 100,
         currency: 'GHS',
         callback: function(response) {
